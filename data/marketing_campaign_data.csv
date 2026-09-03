@@ -1,0 +1,181 @@
+report_date,campaign_name,channel,device,impressions,clicks,spend,conversions,revenue
+2026-05-01,Summer Sale,Google Ads,Mobile,15428,689,1093.86,50,3744.00
+2026-05-01,Brand Awareness,Facebook,Tablet,16229,436,466.17,18,1222.20
+2026-05-01,Back to School,Instagram,Desktop,19695,688,853.12,41,3013.50
+2026-05-01,B2B Lead Generation,LinkedIn,Mobile,8387,181,758.66,16,2851.20
+2026-05-01,Email Retargeting,Email,Tablet,6548,765,218.48,73,4964.00
+2026-05-01,Product Launch,YouTube,Desktop,29700,564,1074.70,22,2044.24
+2026-05-02,Summer Sale,Google Ads,Tablet,10649,480,777.60,35,2648.10
+2026-05-02,Brand Awareness,Facebook,Desktop,24150,656,715.56,27,1852.20
+2026-05-02,Back to School,Instagram,Mobile,23587,832,1052.31,50,3712.50
+2026-05-02,B2B Lead Generation,LinkedIn,Tablet,5754,125,534.31,12,2160.00
+2026-05-02,Email Retargeting,Email,Desktop,7565,893,240.04,87,5975.16
+2026-05-02,Product Launch,YouTube,Mobile,27821,534,958.26,19,1782.96
+2026-05-03,Summer Sale,Google Ads,Desktop,15805,721,1191.38,53,4051.32
+2026-05-03,Brand Awareness,Facebook,Mobile,28851,792,881.02,33,2286.90
+2026-05-03,Back to School,Instagram,Tablet,12636,450,535.68,27,2025.00
+2026-05-03,B2B Lead Generation,LinkedIn,Desktop,6696,147,591.75,14,2545.20
+2026-05-03,Email Retargeting,Email,Mobile,9139,1089,298.82,107,7421.52
+2026-05-03,Product Launch,YouTube,Tablet,19246,373,683.15,13,1231.88
+2026-05-04,Summer Sale,Google Ads,Mobile,14778,681,1059.09,51,3938.22
+2026-05-04,Brand Awareness,Facebook,Tablet,15566,431,451.52,18,1260.00
+2026-05-04,Back to School,Instagram,Desktop,18915,681,827.55,42,3181.50
+2026-05-04,B2B Lead Generation,LinkedIn,Mobile,8064,179,735.42,17,3121.20
+2026-05-04,Email Retargeting,Email,Tablet,6304,759,212.52,66,4622.64
+2026-05-04,Product Launch,YouTube,Desktop,28620,511,954.80,18,1722.24
+2026-05-05,Summer Sale,Google Ads,Tablet,10231,476,755.70,36,2808.00
+2026-05-05,Brand Awareness,Facebook,Desktop,23230,650,694.98,28,1979.60
+2026-05-05,Back to School,Instagram,Mobile,22714,826,1024.24,51,3901.50
+2026-05-05,B2B Lead Generation,LinkedIn,Tablet,5547,124,519.75,12,2224.80
+2026-05-05,Email Retargeting,Email,Desktop,9350,1037,296.17,92,6506.24
+2026-05-05,Product Launch,YouTube,Mobile,26611,480,914.64,17,1485.80
+2026-05-06,Summer Sale,Google Ads,Desktop,15225,716,1159.92,55,4332.90
+2026-05-06,Brand Awareness,Facebook,Mobile,27821,787,858.46,34,2427.60
+2026-05-06,Back to School,Instagram,Tablet,15584,572,723.47,36,2781.00
+2026-05-06,B2B Lead Generation,LinkedIn,Desktop,6408,133,568.51,11,2059.20
+2026-05-06,Email Retargeting,Email,Mobile,8758,982,263.96,88,5684.80
+2026-05-06,Product Launch,YouTube,Tablet,18468,337,604.75,12,1059.84
+2026-05-07,Summer Sale,Google Ads,Mobile,18189,863,1426.02,67,5330.52
+2026-05-07,Brand Awareness,Facebook,Tablet,14904,426,473.88,19,1369.90
+2026-05-07,Back to School,Instagram,Desktop,18135,614,730.91,39,3042.00
+2026-05-07,B2B Lead Generation,LinkedIn,Mobile,7741,162,652.13,14,2394.00
+2026-05-07,Email Retargeting,Email,Tablet,6059,686,188.24,62,4047.36
+2026-05-07,Product Launch,YouTube,Desktop,27540,508,930.40,19,1695.56
+2026-05-08,Summer Sale,Google Ads,Tablet,9814,470,730.94,37,2972.58
+2026-05-08,Brand Awareness,Facebook,Desktop,22310,587,614.94,26,1892.80
+2026-05-08,Back to School,Instagram,Mobile,21840,747,907.75,42,2992.50
+2026-05-08,B2B Lead Generation,LinkedIn,Tablet,5340,113,464.26,10,1728.00
+2026-05-08,Email Retargeting,Email,Desktop,9010,1031,288.68,94,6200.24
+2026-05-08,Product Launch,YouTube,Mobile,32962,614,1147.26,23,2073.68
+2026-05-09,Summer Sale,Google Ads,Desktop,14645,647,1027.18,51,4137.12
+2026-05-09,Brand Awareness,Facebook,Mobile,26790,713,762.34,32,2128.00
+2026-05-09,Back to School,Instagram,Tablet,15023,519,643.56,29,2088.00
+2026-05-09,B2B Lead Generation,LinkedIn,Desktop,7920,169,708.36,15,2619.00
+2026-05-09,Email Retargeting,Email,Mobile,8378,969,276.75,89,5930.96
+2026-05-09,Product Launch,YouTube,Tablet,17690,333,634.53,13,1184.04
+2026-05-10,Summer Sale,Google Ads,Mobile,17539,783,1268.46,62,4594.20
+2026-05-10,Brand Awareness,Facebook,Tablet,18382,494,538.86,20,1344.00
+2026-05-10,Back to School,Instagram,Desktop,17355,606,766.47,35,2546.25
+2026-05-10,B2B Lead Generation,LinkedIn,Mobile,7419,160,683.92,14,2469.60
+2026-05-10,Email Retargeting,Email,Tablet,5814,679,182.52,63,4241.16
+2026-05-10,Product Launch,YouTube,Desktop,26460,503,902.63,19,1748.00
+2026-05-11,Summer Sale,Google Ads,Tablet,9396,424,700.62,34,2545.92
+2026-05-11,Brand Awareness,Facebook,Desktop,21390,581,646.30,23,1561.70
+2026-05-11,Back to School,Instagram,Mobile,20966,740,880.90,43,3160.50
+2026-05-11,B2B Lead Generation,LinkedIn,Tablet,5132,112,450.86,10,1782.00
+2026-05-11,Email Retargeting,Email,Desktop,8670,1023,280.71,96,6528.00
+2026-05-11,Product Launch,YouTube,Mobile,31752,609,1115.38,23,2137.16
+2026-05-12,Summer Sale,Google Ads,Desktop,14065,641,996.88,46,3480.36
+2026-05-12,Brand Awareness,Facebook,Mobile,25760,707,740.65,29,1989.40
+2026-05-12,Back to School,Instagram,Tablet,14461,515,625.83,30,2227.50
+2026-05-12,B2B Lead Generation,LinkedIn,Desktop,7632,168,690.23,15,2700.00
+2026-05-12,Email Retargeting,Email,Mobile,10377,1237,346.36,118,8104.24
+2026-05-12,Product Launch,YouTube,Tablet,21773,422,788.51,16,1501.44
+2026-05-13,Summer Sale,Google Ads,Mobile,16890,778,1235.15,56,4280.64
+2026-05-13,Brand Awareness,Facebook,Tablet,17719,491,524.98,20,1386.00
+2026-05-13,Back to School,Instagram,Desktop,21450,772,957.28,46,3450.00
+2026-05-13,B2B Lead Generation,LinkedIn,Mobile,7096,158,662.26,14,2545.20
+2026-05-13,Email Retargeting,Email,Tablet,5569,670,191.35,64,4439.04
+2026-05-13,Product Launch,YouTube,Desktop,25380,453,863.19,18,1705.68
+2026-05-14,Summer Sale,Google Ads,Tablet,11588,539,873.18,40,3088.80
+2026-05-14,Brand Awareness,Facebook,Desktop,20470,573,625.03,24,1680.00
+2026-05-14,Back to School,Instagram,Mobile,20093,731,924.57,44,3333.00
+2026-05-14,B2B Lead Generation,LinkedIn,Tablet,4925,111,474.47,10,1836.00
+2026-05-14,Email Retargeting,Email,Desktop,8330,924,248.37,90,6303.60
+2026-05-14,Product Launch,YouTube,Mobile,30542,551,988.77,19,1817.92
+2026-05-15,Summer Sale,Google Ads,Desktop,13485,634,1047.62,47,3666.00
+2026-05-15,Brand Awareness,Facebook,Mobile,24730,699,777.57,29,2050.30
+2026-05-15,Back to School,Instagram,Tablet,13900,510,607.10,31,2371.50
+2026-05-15,B2B Lead Generation,LinkedIn,Desktop,7344,152,611.88,14,2595.60
+2026-05-15,Email Retargeting,Email,Mobile,9996,1121,307.60,110,7779.20
+2026-05-15,Product Launch,YouTube,Tablet,20995,383,701.46,14,1223.60
+2026-05-16,Summer Sale,Google Ads,Mobile,16240,771,1199.06,58,4569.24
+2026-05-16,Brand Awareness,Facebook,Tablet,17057,487,510.18,21,1499.40
+2026-05-16,Back to School,Instagram,Desktop,20670,699,849.42,43,3321.75
+2026-05-16,B2B Lead Generation,LinkedIn,Mobile,8790,184,755.96,17,3182.40
+2026-05-16,Email Retargeting,Email,Tablet,6854,776,217.28,68,4392.80
+2026-05-16,Product Launch,YouTube,Desktop,24300,448,837.09,16,1413.12
+2026-05-17,Summer Sale,Google Ads,Tablet,11171,536,850.95,41,3261.96
+2026-05-17,Brand Awareness,Facebook,Desktop,25300,666,712.09,28,2018.80
+2026-05-17,Back to School,Instagram,Mobile,19219,657,814.68,40,3120.00
+2026-05-17,B2B Lead Generation,LinkedIn,Tablet,4717,100,419.15,9,1539.00
+2026-05-17,Email Retargeting,Email,Desktop,7990,915,261.32,81,5287.68
+2026-05-17,Product Launch,YouTube,Mobile,29333,546,1040.40,20,1784.80
+2026-05-18,Summer Sale,Google Ads,Desktop,12905,570,923.40,44,3534.96
+2026-05-18,Brand Awareness,Facebook,Mobile,23699,630,687.20,27,1965.60
+2026-05-18,Back to School,Instagram,Tablet,13338,461,583.07,29,2066.25
+2026-05-18,B2B Lead Generation,LinkedIn,Desktop,7056,151,645.45,13,2246.40
+2026-05-18,Email Retargeting,Email,Mobile,9615,1112,298.91,99,6530.04
+2026-05-18,Product Launch,YouTube,Tablet,20218,380,681.91,14,1262.24
+2026-05-19,Summer Sale,Google Ads,Mobile,15590,696,1150.07,54,4380.48
+2026-05-19,Brand Awareness,Facebook,Tablet,16394,441,490.57,19,1263.50
+2026-05-19,Back to School,Instagram,Desktop,19890,695,827.33,44,3168.00
+2026-05-19,B2B Lead Generation,LinkedIn,Mobile,8467,183,736.67,16,2793.60
+2026-05-19,Email Retargeting,Email,Tablet,6610,772,211.84,70,4664.80
+2026-05-19,Product Launch,YouTube,Desktop,29970,569,1042.12,21,1912.68
+2026-05-20,Summer Sale,Google Ads,Tablet,10753,485,754.27,38,2815.80
+2026-05-20,Brand Awareness,Facebook,Desktop,24380,662,693.51,29,1948.80
+2026-05-20,Back to School,Instagram,Mobile,23806,840,1020.77,47,3419.25
+2026-05-20,B2B Lead Generation,LinkedIn,Tablet,5806,126,517.67,11,1940.40
+2026-05-20,Email Retargeting,Email,Desktop,7650,903,252.84,82,5520.24
+2026-05-20,Product Launch,YouTube,Mobile,28123,540,1008.99,20,1840.00
+2026-05-21,Summer Sale,Google Ads,Desktop,15950,727,1154.19,57,4268.16
+2026-05-21,Brand Awareness,Facebook,Mobile,22669,622,665.04,28,1901.20
+2026-05-21,Back to School,Instagram,Tablet,12776,455,564.20,26,1911.00
+2026-05-21,B2B Lead Generation,LinkedIn,Desktop,6768,149,624.53,13,2316.60
+2026-05-21,Email Retargeting,Email,Mobile,9234,1101,314.45,101,6868.00
+2026-05-21,Product Launch,YouTube,Tablet,19440,377,718.37,14,1300.88
+2026-05-22,Summer Sale,Google Ads,Mobile,14941,688,1114.56,55,4161.30
+2026-05-22,Brand Awareness,Facebook,Tablet,15732,436,475.59,17,1166.20
+2026-05-22,Back to School,Instagram,Desktop,19110,688,870.18,39,2895.75
+2026-05-22,B2B Lead Generation,LinkedIn,Mobile,8145,181,773.68,16,2880.00
+2026-05-22,Email Retargeting,Email,Tablet,6365,766,205.90,71,4876.28
+2026-05-22,Product Launch,YouTube,Desktop,28890,516,925.96,20,1876.80
+2026-05-23,Summer Sale,Google Ads,Tablet,10336,481,794.80,39,2981.16
+2026-05-23,Brand Awareness,Facebook,Desktop,23460,657,730.85,26,1801.80
+2026-05-23,Back to School,Instagram,Mobile,22932,834,992.79,48,3600.00
+2026-05-23,B2B Lead Generation,LinkedIn,Tablet,5599,126,507.21,11,1999.80
+2026-05-23,Email Retargeting,Email,Desktop,9435,1047,287.30,98,6797.28
+2026-05-23,Product Launch,YouTube,Mobile,26914,486,890.11,19,1800.44
+2026-05-24,Summer Sale,Google Ads,Desktop,15370,722,1122.85,52,4015.44
+2026-05-24,Brand Awareness,Facebook,Mobile,28078,794,831.79,32,2240.00
+2026-05-24,Back to School,Instagram,Tablet,15725,577,701.17,34,2575.50
+2026-05-24,B2B Lead Generation,LinkedIn,Desktop,6480,134,550.54,12,2203.20
+2026-05-24,Email Retargeting,Email,Mobile,8854,993,278.04,94,6583.76
+2026-05-24,Product Launch,YouTube,Tablet,18662,340,635.29,13,1243.84
+2026-05-25,Summer Sale,Google Ads,Mobile,14291,678,1076.39,49,3822.00
+2026-05-25,Brand Awareness,Facebook,Tablet,15070,430,459.76,18,1272.60
+2026-05-25,Back to School,Instagram,Desktop,18330,620,768.80,37,2830.50
+2026-05-25,B2B Lead Generation,LinkedIn,Mobile,7822,163,683.21,15,2781.00
+2026-05-25,Email Retargeting,Email,Tablet,6120,693,197.92,66,4667.52
+2026-05-25,Product Launch,YouTube,Desktop,27810,513,977.52,20,1748.00
+2026-05-26,Summer Sale,Google Ads,Tablet,9918,475,769.50,35,2757.30
+2026-05-26,Brand Awareness,Facebook,Desktop,22540,593,646.84,24,1713.60
+2026-05-26,Back to School,Instagram,Mobile,22058,754,953.66,45,3476.25
+2026-05-26,B2B Lead Generation,LinkedIn,Tablet,5391,114,487.29,10,1872.00
+2026-05-26,Email Retargeting,Email,Desktop,9095,1041,279.82,101,6524.60
+2026-05-26,Product Launch,YouTube,Mobile,33264,619,1110.80,22,1943.04
+2026-05-27,Summer Sale,Google Ads,Desktop,14790,653,1079.02,48,3818.88
+2026-05-27,Brand Awareness,Facebook,Mobile,27048,719,799.82,30,2163.00
+2026-05-27,Back to School,Instagram,Tablet,15163,524,623.77,32,2496.00
+2026-05-27,B2B Lead Generation,LinkedIn,Desktop,7992,171,688.36,16,2736.00
+2026-05-27,Email Retargeting,Email,Mobile,8473,980,268.91,96,6266.88
+2026-05-27,Product Launch,YouTube,Tablet,17885,336,615.38,12,1070.88
+2026-05-28,Summer Sale,Google Ads,Mobile,17702,790,1228.61,59,4740.06
+2026-05-28,Brand Awareness,Facebook,Tablet,18547,499,522.75,21,1528.80
+2026-05-28,Back to School,Instagram,Desktop,17550,613,744.92,37,2636.25
+2026-05-28,B2B Lead Generation,LinkedIn,Mobile,7500,162,665.58,15,2592.00
+2026-05-28,Email Retargeting,Email,Tablet,5875,686,192.08,60,3957.60
+2026-05-28,Product Launch,YouTube,Desktop,26730,508,949.20,18,1622.88
+2026-05-29,Summer Sale,Google Ads,Tablet,9500,429,681.08,32,2595.84
+2026-05-29,Brand Awareness,Facebook,Desktop,21620,587,627.62,25,1662.50
+2026-05-29,Back to School,Instagram,Mobile,21185,747,926.28,46,3312.00
+2026-05-29,B2B Lead Generation,LinkedIn,Tablet,5184,113,473.64,11,1920.60
+2026-05-29,Email Retargeting,Email,Desktop,8755,1033,295.02,91,6064.24
+2026-05-29,Product Launch,YouTube,Mobile,32054,615,1171.88,22,2003.76
+2026-05-30,Summer Sale,Google Ads,Desktop,14210,648,1049.76,50,3705.00
+2026-05-30,Brand Awareness,Facebook,Mobile,26018,714,778.83,31,2083.20
+2026-05-30,Back to School,Instagram,Tablet,14602,520,657.70,32,2328.00
+2026-05-30,B2B Lead Generation,LinkedIn,Desktop,7704,169,722.39,14,2469.60
+2026-05-30,Email Retargeting,Email,Mobile,10472,1248,335.46,111,7472.52
+2026-05-30,Product Launch,YouTube,Tablet,17107,332,595.77,12,1104.00
