@@ -78,13 +78,15 @@ marketing-campaign-analytics/
 │   ├── 02_data_quality_checks.sql
 │   ├── 03_create_kpi_views.sql
 │   └── 04_business_analysis.sql
-├── python/
+├── ├── python/
 │   ├── db_connection.py
 │   ├── extract_campaign_data.py
 │   ├── transform_campaign_data.py
-│   └── analyze_campaign_performance.py
+│   ├── analyze_campaign_performance.py
+│   └── run_pipeline.py
 ├── powerbi/
 ├── images/
+├── .env.example
 ├── .gitignore
 ├── requirements.txt
 └── README.md
@@ -94,6 +96,47 @@ marketing-campaign-analytics/
 │       ├── device_performance_summary.csv
 │       └── daily_performance_summary.csv
 ```
+
+## How to Run the Python Pipeline
+
+1. Clone the repository and enter the project folder:
+
+```bash
+git clone https://github.com/nikam0420/marketing-campaign-analytics.git
+cd marketing-campaign-analytics
+```
+
+2. Create and activate a virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+3. Install the required packages:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+4. Create a private environment file from the template:
+
+```bash
+cp .env.example .env
+```
+
+5. Update `.env` with your PostgreSQL credentials.
+
+6. Create the PostgreSQL database objects using the scripts in the `sql/` folder and load the campaign dataset.
+
+7. Run the complete pipeline:
+
+```bash
+python python/run_pipeline.py
+```
+
+The pipeline extracts data from PostgreSQL, performs data-quality checks, calculates marketing KPIs, and creates reporting-ready CSV files in `data/processed/`.
+
 ## Future Development
 
 - Build an interactive Power BI dashboard using the processed campaign dataset.
