@@ -4,7 +4,7 @@ from sqlalchemy import text
 from db_connection import get_engine
 
 
-query = """
+QUERY = """
 SELECT
     record_id,
     report_date,
@@ -20,23 +20,32 @@ FROM campaign_performance
 ORDER BY report_date, record_id;
 """
 
-engine = get_engine()
 
-try:
-    with engine.connect() as connection:
-        campaign_data = pd.read_sql(
-            text(query),
-            connection,
-        )
+def extract_campaign_data():
+    engine = get_engine()
 
-    print("Campaign data extracted successfully.")
-    print(f"Rows: {campaign_data.shape[0]}")
-    print(f"Columns: {campaign_data.shape[1]}")
-    print("\nFirst 5 rows:")
-    print(campaign_data.head())
+    try:
+        with engine.connect() as connection:
+            campaign_data = pd.read_sql(
+                text(QUERY),
+                connection,
+            )
 
-except Exception as error:
-    print(f"Data extraction failed: {error}")
+        return campaign_data
 
-finally:
-    engine.dispose()
+    finally:
+        engine.dispose()
+
+
+if __name__ == "__main__":
+    try:
+        campaign_data = extract_campaign_data()
+
+        print("Campaign data extracted successfully.")
+        print(f"Rows: {campaign_data.shape[0]}")
+        print(f"Columns: {campaign_data.shape[1]}")
+        print("\nFirst 5 rows:")
+        print(campaign_data.head())
+
+    except Exception as error:
+        print(f"Data extraction failed: {error}")
