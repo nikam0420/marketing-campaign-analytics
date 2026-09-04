@@ -2,10 +2,10 @@ from extract_campaign_data import extract_campaign_data
 from transform_campaign_data import transform_campaign_data
 
 
-def analyze_channel_performance(transformed_data):
-    channel_performance = (
+def summarize_performance(transformed_data, dimension):
+    performance_summary = (
         transformed_data.groupby(
-            "channel",
+            dimension,
             as_index=False,
         )
         .agg(
@@ -17,28 +17,38 @@ def analyze_channel_performance(transformed_data):
         )
     )
 
-    channel_performance["ctr_percentage"] = (
-        channel_performance["total_clicks"]
+    impressions_denominator = performance_summary[
+        "total_impressions"
+    ].where(
+        performance_summary["total_impressions"] != 0
+    )
+
+    spend_denominator = performance_summary["total_spend"].where(
+        performance_summary["total_spend"] != 0
+    )
+
+    performance_summary["ctr_percentage"] = (
+        performance_summary["total_clicks"]
         * 100
-        / channel_performance["total_impressions"]
+        / impressions_denominator
     ).round(2)
 
-    channel_performance["roas"] = (
-        channel_performance["total_revenue"]
-        / channel_performance["total_spend"]
+    performance_summary["roas"] = (
+        performance_summary["total_revenue"]
+        / spend_denominator
     ).round(2)
 
-    channel_performance["profit"] = (
-        channel_performance["total_revenue"]
-        - channel_performance["total_spend"]
+    performance_summary["profit"] = (
+        performance_summary["total_revenue"]
+        - performance_summary["total_spend"]
     ).round(2)
 
-    channel_performance = channel_performance.sort_values(
+    performance_summary = performance_summary.sort_values(
         by="roas",
         ascending=False,
     )
 
-    return channel_performance
+    return performance_summary
 
 
 if __name__ == "__main__":
@@ -49,21 +59,38 @@ if __name__ == "__main__":
             campaign_data
         )
 
-        channel_performance = analyze_channel_performance(
-            transformed_data
+        channel_performance = summarize_performance(
+            transformed_data,
+            "channel",
         )
 
-        output_path = "data/processed/channel_performance_summary.csv"
+        device_performance = summarize_performance(
+            transformed_data,
+            "device",
+        )
+
+        channel_output_path = (
+            "data/processed/channel_performance_summary.csv"
+        )
+        device_output_path = (
+            "data/processed/device_performance_summary.csv"
+        )
 
         channel_performance.to_csv(
-            output_path,
+            channel_output_path,
             index=False,
         )
 
-        print("Channel analysis completed successfully.")
-        print(f"Channel summary saved to: {output_path}")
-        print("\nChannels ranked by ROAS:")
+        device_performance.to_csv(
+            device_output_path,
+            index=False,
+        )
 
+        print("Campaign analysis completed successfully.")
+        print(f"Channel summary saved to: {channel_output_path}")
+        print(f"Device summary saved to: {device_output_path}")
+
+        print("\nChannels ranked by ROAS:")
         print(
             channel_performance[
                 [
@@ -76,5 +103,20 @@ if __name__ == "__main__":
             ].to_string(index=False)
         )
 
+        print("\nDevices ranked by ROAS:")
+        print(
+            device_performance[
+                [
+                    "device",
+                    "total_impressions",
+                    "total_clicks",
+                    "total_conversions",
+                    "total_revenue",
+                    "ctr_percentage",
+                    "roas",
+                ]
+            ].to_string(index=False)
+        )
+
     except Exception as error:
-        print(f"Channel analysis failed: {error}")
+        print(f"Campaign analysis failed: {error}")

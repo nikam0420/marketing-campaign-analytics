@@ -39,8 +39,9 @@ The Python workflow connects to PostgreSQL, extracts campaign data into a pandas
 - `extract_campaign_data.py` - Extracts 180 campaign records from PostgreSQL.
 - `transform_campaign_data.py` - Checks data quality, calculates CTR, conversion rate, ROAS, and profit, and saves the transformed output.
 - `marketing_campaign_enriched.csv` - Contains the processed data with calculated KPI columns.
-- `analyze_campaign_performance.py` - Aggregates channel performance, ranks channels by ROAS, and validates the SQL findings.
+- `analyze_campaign_performance.py` - Aggregates channel and device performance, ranks results by ROAS, and validates the SQL findings.
 - `channel_performance_summary.csv` - Contains the channel-level summary prepared for reporting and Power BI.
+- `device_performance_summary.csv` - Contains device-level KPI totals for reporting and Power BI.
 
 The dataset passed the Python quality checks with 0 duplicate rows, 0 missing values, and all 180 rows retained.
 
@@ -89,6 +90,7 @@ marketing-campaign-analytics/
 │   └── processed/
 │       ├── marketing_campaign_enriched.csv
 │       └── channel_performance_summary.csv
+│       └── device_performance_summary.csv
 ```
 ## Future Development
 
