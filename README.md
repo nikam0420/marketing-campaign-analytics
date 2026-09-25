@@ -43,7 +43,7 @@ The Python workflow connects to PostgreSQL, extracts campaign data into a pandas
 - `channel_performance_summary.csv` - Contains the channel-level summary prepared for reporting and Power BI.
 - `device_performance_summary.csv` - Contains device-level KPI totals for reporting and Power BI.
 - `daily_performance_summary.csv` - Contains 30 days of spend, revenue, and profit trends for reporting and Power BI.
-
+- `run_pipeline.py` - Orchestrates extraction, transformation, analysis, and output generation with one command.
 The dataset passed the Python quality checks with 0 duplicate rows, 0 missing values, and all 180 rows retained.
 
 ## Key Metrics
@@ -66,6 +66,24 @@ The analysis includes:
 - Tablet achieved the highest device-level CTR and ROAS.
 - Campaign performance was analyzed over time using daily spend, revenue, and profit trends.
 
+## Tableau Dashboard
+
+The interactive Tableau dashboard presents campaign performance through executive KPIs and detailed visual analysis.
+
+### Dashboard Features
+
+- Total revenue, spend, profit, conversions, and overall ROAS
+- Channel-level ROAS comparison
+- Campaign revenue ranking
+- Device-level ROAS analysis
+- Daily revenue trend
+- Interactive filtering by channel, campaign, and device
+
+### View the Dashboard
+
+[View the Interactive Tableau Dashboard](https://public.tableau.com/views/Marketingcampaignperformancedashboard_17903605080590/Marketingcampaignperformancedashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+![Marketing Campaign Performance Dashboard](images/marketing_campaign_dashboard.png)
 ## Project Structure
 ```text
 marketing-campaign-analytics/
